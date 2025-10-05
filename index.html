@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahmon Sipayung - Jualan Gula Asli Berkualitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sahmon Sipayung</h1>
+        <p>Gula Asli dari Sumatera Utara, Alami dan Sehat</p>
+    </header>
+
+    <section class="hero">
+        <h2>Tentang Produk Kami</h2>
+        <p>Kami menyediakan gula asli yang diproses secara tradisional dari sumber terbaik di Sumatera Utara. Kaya akan nutrisi, cocok untuk minuman, masakan, atau kesehatan sehari-hari. Harga terjangkau.</p>
+    </section>
+
+    <section class="gallery">
+        <h2>Galeri Produk</h2>
+        <div class="gallery-grid">
+            <figure class="gallery-item">
+                <img src="https://picsum.photos/400/300?random=1" alt="Gula Batok 1" class="gallery-img" onclick="openLightbox(this)">
+                <figcaption>Gula Batok Premium - 100% alami, rasa manis alami. Harga: Rp 25.000/kg</figcaption>
+            </figure>
+            
+            <figure class="gallery-item">
+                <img src="https://picsum.photos/400/300?random=2" alt="Gula Bubuk 1" class="gallery-img" onclick="openLightbox(this)">
+                <figcaption>Gula Bubuk Halus - Mudah larut, ideal untuk baking. Harga: Rp 30.000/kg</figcaption>
+            </figure>
+            
+            <figure class="gallery-item">
+                <img src="https://picsum.photos/400/300?random=3" alt="Gula Kristal 1" class="gallery-img" onclick="openLightbox(this)">
+                <figcaption>Gula Kristal Murni - Rendah glikemik, bagus untuk kesehatan. Harga: Rp 28.000/kg</figcaption>
+            </figure>
+            
+            <figure class="gallery-item">
+                <img src="https://picsum.photos/400/300?random=4" alt="Gula Batok 2" class="gallery-img" onclick="openLightbox(this)">
+                <figcaption>Gula Batok Organik - Bebas pestisida, untuk keluarga. Harga: Rp 22.000/kg</figcaption>
+            </figure>
+            
+            <figure class="gallery-item">
+                <img src="https://picsum.photos/400/300?random=5" alt="Gula Bubuk 2" class="gallery-img" onclick="openLightbox(this)">
+                <figcaption>Gula Bubuk Siap Pakai - Praktis, antioksidan tinggi. Harga: Rp 27.000/kg</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Hubungi Kami</h2>
+        <div class="contact-info">
+            <p><strong>Alamat:</strong> Negeri Dolok, Dusun III, Silau Kahean, Sumatera Utara. 21157</p>
+            <p><strong>Telepon/WhatsApp:</strong> 083861333877</p>
+        </div>
+        <button onclick="openWhatsApp()">Pesan via WhatsApp</button>
+    </section>
+
+    <!-- Lightbox untuk zoom gambar -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Sahmon Sipayung. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
